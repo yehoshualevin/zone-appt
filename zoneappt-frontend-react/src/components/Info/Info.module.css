@@ -1,0 +1,42 @@
+.container {
+    width: 450px;
+   padding: 24px;
+    background-color: hsl(224, 90%, 90%);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.label{
+    font-size: 16px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.input{
+    height: 24px;
+    margin-top: 10px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+}
+
+.button{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    place-self: center;
+    background-color: rgb(238, 238, 238);
+    width: 35%;
+    padding: 16px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    color: black;
+}
+

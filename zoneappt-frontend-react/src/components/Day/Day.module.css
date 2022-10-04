@@ -1,0 +1,47 @@
+.daybutton{
+    position: relative;
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1px 0 0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: inherit;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    }
+
+.daybutton:disabled{
+    cursor: default;
+}
+
+.padding{
+    visibility: hidden;  
+}
+
+.today{
+    width: 5px;
+    height: 5px;
+    color: inherit;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 13px;
+    border-radius: 50%;
+    background-color: currentColor;
+    transform: translate(-50%,-50%);
+}
+
+.openday{
+  background-color: hsl(224, 75%, 75%);
+  color: hsl(224, 25%, 25%);
+  font-weight: 700; 
+}
+
+
+
