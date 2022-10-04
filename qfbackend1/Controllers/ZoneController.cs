@@ -15,7 +15,7 @@ namespace qfbackend1.Controllers
         [HttpGet]
         public async Task<ZoneData> Get(string address)
         {
-            IGeocoder geocoder = new GoogleGeocoder() { ApiKey = "AIzaSyAIAs1I7bRsZoC9sMPg1FT8_ehUoQl1vGQ" };
+            IGeocoder geocoder = new GoogleGeocoder() { ApiKey = "" };
             IEnumerable<Address> addresses = await geocoder.GeocodeAsync($"{address} NJ");
             Location location = addresses.FirstOrDefault().Coordinates;
             double latitude = location.Latitude;
